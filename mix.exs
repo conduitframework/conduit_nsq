@@ -1,4 +1,4 @@
-defmodule ConduitNsq.MixProject do
+defmodule ConduitNSQ.MixProject do
   use Mix.Project
 
   def project do

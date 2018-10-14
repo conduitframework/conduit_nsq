@@ -1,6 +1,6 @@
-defmodule ConduitNsq do
+defmodule ConduitNSQ do
   @moduledoc """
-  Documentation for ConduitNsq.
+  Documentation for ConduitNSQ.
   """
 
   @doc """
@@ -8,7 +8,7 @@ defmodule ConduitNsq do
 
   ## Examples
 
-      iex> ConduitNsq.hello
+      iex> ConduitNSQ.hello
       :world
 
   """

@@ -1,8 +1,8 @@
-defmodule ConduitNsqTest do
+defmodule ConduitNSQTest do
   use ExUnit.Case
-  doctest ConduitNsq
+  doctest ConduitNSQ
 
   test "greets the world" do
-    assert ConduitNsq.hello() == :world
+    assert ConduitNSQ.hello() == :world
   end
 end
