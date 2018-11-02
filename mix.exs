@@ -21,8 +21,14 @@ defmodule ConduitNSQ.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      # {:dep_from_hexpm, "~> 0.3.0"},
-      # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"},
+      {:conduit, "~> 0.12.7"},
+      {:elixir_nsq, github: "conduitframework/elixir_nsq"},
+      {:poolboy, "~> 1.5"},
+      {:ex_doc, "~> 0.18.0", only: :dev},
+      {:dialyxir, "~> 0.4", only: :dev},
+      {:junit_formatter, "~> 2.0", only: :test},
+      {:excoveralls, "~> 0.5", only: :test},
+      {:credo, "~> 0.7", only: [:dev, :test]},
     ]
   end
 end
